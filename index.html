@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./logo.jpg" alt="logo" />
+        </div>
+        <h1>Todo App</h1>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <input type="text" id="text" placeholder="Enter things todo...">
+            <button id="add_btn" onclick="add()" >Add</button><br/><br/>
+            <input type="text" id="filters" placeholder="Filter todos...">
+            <label><input id="hidecompleted" type="checkbox" placeholder="Filter todos..."> Hide completed</label><br/><br/><hr/>
+           <p id="summary"></p>
+            <ul id="list">
+                
+            </ul>            
+            
+        </div>
+    </main>
+    
+<script src="script.js"></script>
+</body>
+</html>
+

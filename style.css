@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+header{
+    width: 100%;
+    height:10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    align-items: center;
+    color:white
+}
+
+header .logo img{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    height:90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.wrapper{
+    background-color: white;
+    max-height: 70vh;
+    padding:20px;
+    border-radius: 20px;
+    overflow: auto
+}
+
+input[type="text"]{
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid gray;
+    width:500px;
+    font-size: 17px;
+    outline: none;
+    text-align: center
+}
+
+#add_btn{
+padding: 10px 20px;
+background: green;
+color:white;
+border: none;
+outline: none;
+border-radius: 10px;
+margin-left: 10px;
+font-size: 17px
+}
+
+.done_btn{
+    padding: 7px 10px;
+    background: green;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 12px
+    }
+
+    .edit_btn{
+        padding: 7px 10px;
+        background: blue;
+        color:white;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        margin-left: 10px;
+        font-size: 12px
+        }
+
+        .delete_btn{
+            padding: 7px 10px;
+            background:red;
+            color:white;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            margin-left: 10px;
+            font-size: 12px
+            }        
+#add_btn:hover{
+    background-color: greenyellow;
+    color:green
+}
+
+.delete_btn:hover{
+    background-color:lightcoral;
+    color:white
+}
+.done_btn:hover{
+    background-color: greenyellow;
+    color:green
+}
+.edit_btn:hover{
+    background-color: gray;
+    color:white
+}
+
+label {
+    font-size: 17px;
+    font-weight: 700
+}
+
+ul{
+    list-style: none
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px
+}
+
+li span{
+    font-size: 17px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin:10px 0
+}
+
+
+@media screen and (max-width:769px){
+    input[type="text"]{
+        width:400px
+    }
+}
+
+@media screen and (max-width:600px){
+    input[type="text"]{
+        width:250px
+    }
+}
+
+@media screen and (max-width:480px){
+    input[type="text"]{
+        width:200px;
+
+    }
+}
